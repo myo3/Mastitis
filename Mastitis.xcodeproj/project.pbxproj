@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1401DC1D4A439E0073BE2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401DB1D4A439E0073BE2C /* AppDelegate.swift */; };
+		DD1401DE1D4A439E0073BE2C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401DD1D4A439E0073BE2C /* FirstViewController.swift */; };
+		DD1401E01D4A439E0073BE2C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401DF1D4A439E0073BE2C /* SecondViewController.swift */; };
+		DD1401E31D4A439E0073BE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1401E11D4A439E0073BE2C /* Main.storyboard */; };
+		DD1401E51D4A439E0073BE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1401E41D4A439E0073BE2C /* Assets.xcassets */; };
+		DD1401E81D4A439E0073BE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1401E61D4A439E0073BE2C /* LaunchScreen.storyboard */; };
+		DD1401F31D4A439E0073BE2C /* MastitisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401F21D4A439E0073BE2C /* MastitisTests.swift */; };
+		DD1401FE1D4A439E0073BE2C /* MastitisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD1401EF1D4A439E0073BE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1401D01D4A439E0073BE2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1401D71D4A439E0073BE2C;
+			remoteInfo = Mastitis;
+		};
+		DD1401FA1D4A439E0073BE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1401D01D4A439E0073BE2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1401D71D4A439E0073BE2C;
+			remoteInfo = Mastitis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD1401D81D4A439E0073BE2C /* Mastitis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastitis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1401DB1D4A439E0073BE2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD1401DD1D4A439E0073BE2C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DD1401DF1D4A439E0073BE2C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DD1401E21D4A439E0073BE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD1401E41D4A439E0073BE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD1401E71D4A439E0073BE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD1401E91D4A439E0073BE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1401EE1D4A439E0073BE2C /* MastitisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastitisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1401F21D4A439E0073BE2C /* MastitisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastitisTests.swift; sourceTree = "<group>"; };
+		DD1401F41D4A439E0073BE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1401F91D4A439E0073BE2C /* MastitisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastitisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastitisUITests.swift; sourceTree = "<group>"; };
+		DD1401FF1D4A439E0073BE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1401D51D4A439E0073BE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1401EB1D4A439E0073BE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1401F61D4A439E0073BE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1401CF1D4A439E0073BE2C = {
+			isa = PBXGroup;
+			children = (
+				DD1401DA1D4A439E0073BE2C /* Mastitis */,
+				DD1401F11D4A439E0073BE2C /* MastitisTests */,
+				DD1401FC1D4A439E0073BE2C /* MastitisUITests */,
+				DD1401D91D4A439E0073BE2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1401D91D4A439E0073BE2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1401D81D4A439E0073BE2C /* Mastitis.app */,
+				DD1401EE1D4A439E0073BE2C /* MastitisTests.xctest */,
+				DD1401F91D4A439E0073BE2C /* MastitisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1401DA1D4A439E0073BE2C /* Mastitis */ = {
+			isa = PBXGroup;
+			children = (
+				DD1401DB1D4A439E0073BE2C /* AppDelegate.swift */,
+				DD1401DD1D4A439E0073BE2C /* FirstViewController.swift */,
+				DD1401DF1D4A439E0073BE2C /* SecondViewController.swift */,
+				DD1401E11D4A439E0073BE2C /* Main.storyboard */,
+				DD1401E41D4A439E0073BE2C /* Assets.xcassets */,
+				DD1401E61D4A439E0073BE2C /* LaunchScreen.storyboard */,
+				DD1401E91D4A439E0073BE2C /* Info.plist */,
+			);
+			path = Mastitis;
+			sourceTree = "<group>";
+		};
+		DD1401F11D4A439E0073BE2C /* MastitisTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1401F21D4A439E0073BE2C /* MastitisTests.swift */,
+				DD1401F41D4A439E0073BE2C /* Info.plist */,
+			);
+			path = MastitisTests;
+			sourceTree = "<group>";
+		};
+		DD1401FC1D4A439E0073BE2C /* MastitisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */,
+				DD1401FF1D4A439E0073BE2C /* Info.plist */,
+			);
+			path = MastitisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1401D71D4A439E0073BE2C /* Mastitis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1402021D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "Mastitis" */;
+			buildPhases = (
+				DD1401D41D4A439E0073BE2C /* Sources */,
+				DD1401D51D4A439E0073BE2C /* Frameworks */,
+				DD1401D61D4A439E0073BE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mastitis;
+			productName = Mastitis;
+			productReference = DD1401D81D4A439E0073BE2C /* Mastitis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD1401ED1D4A439E0073BE2C /* MastitisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1402051D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisTests" */;
+			buildPhases = (
+				DD1401EA1D4A439E0073BE2C /* Sources */,
+				DD1401EB1D4A439E0073BE2C /* Frameworks */,
+				DD1401EC1D4A439E0073BE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1401F01D4A439E0073BE2C /* PBXTargetDependency */,
+			);
+			name = MastitisTests;
+			productName = MastitisTests;
+			productReference = DD1401EE1D4A439E0073BE2C /* MastitisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD1401F81D4A439E0073BE2C /* MastitisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1402081D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisUITests" */;
+			buildPhases = (
+				DD1401F51D4A439E0073BE2C /* Sources */,
+				DD1401F61D4A439E0073BE2C /* Frameworks */,
+				DD1401F71D4A439E0073BE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1401FB1D4A439E0073BE2C /* PBXTargetDependency */,
+			);
+			name = MastitisUITests;
+			productName = MastitisUITests;
+			productReference = DD1401F91D4A439E0073BE2C /* MastitisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1401D01D4A439E0073BE2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "CS-ECE";
+				TargetAttributes = {
+					DD1401D71D4A439E0073BE2C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DD1401ED1D4A439E0073BE2C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD1401D71D4A439E0073BE2C;
+					};
+					DD1401F81D4A439E0073BE2C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD1401D71D4A439E0073BE2C;
+					};
+				};
+			};
+			buildConfigurationList = DD1401D31D4A439E0073BE2C /* Build configuration list for PBXProject "Mastitis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD1401CF1D4A439E0073BE2C;
+			productRefGroup = DD1401D91D4A439E0073BE2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1401D71D4A439E0073BE2C /* Mastitis */,
+				DD1401ED1D4A439E0073BE2C /* MastitisTests */,
+				DD1401F81D4A439E0073BE2C /* MastitisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1401D61D4A439E0073BE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1401E81D4A439E0073BE2C /* LaunchScreen.storyboard in Resources */,
+				DD1401E51D4A439E0073BE2C /* Assets.xcassets in Resources */,
+				DD1401E31D4A439E0073BE2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1401EC1D4A439E0073BE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1401F71D4A439E0073BE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1401D41D4A439E0073BE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1401E01D4A439E0073BE2C /* SecondViewController.swift in Sources */,
+				DD1401DC1D4A439E0073BE2C /* AppDelegate.swift in Sources */,
+				DD1401DE1D4A439E0073BE2C /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1401EA1D4A439E0073BE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1401F31D4A439E0073BE2C /* MastitisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1401F51D4A439E0073BE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1401FE1D4A439E0073BE2C /* MastitisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD1401F01D4A439E0073BE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1401D71D4A439E0073BE2C /* Mastitis */;
+			targetProxy = DD1401EF1D4A439E0073BE2C /* PBXContainerItemProxy */;
+		};
+		DD1401FB1D4A439E0073BE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1401D71D4A439E0073BE2C /* Mastitis */;
+			targetProxy = DD1401FA1D4A439E0073BE2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD1401E11D4A439E0073BE2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1401E21D4A439E0073BE2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD1401E61D4A439E0073BE2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1401E71D4A439E0073BE2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1402001D4A439E0073BE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD1402011D4A439E0073BE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD1402031D4A439E0073BE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mastitis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGem.Mastitis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD1402041D4A439E0073BE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mastitis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGem.Mastitis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD1402061D4A439E0073BE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MastitisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGem.MastitisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mastitis.app/Mastitis";
+			};
+			name = Debug;
+		};
+		DD1402071D4A439E0073BE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MastitisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGem.MastitisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mastitis.app/Mastitis";
+			};
+			name = Release;
+		};
+		DD1402091D4A439E0073BE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MastitisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGem.MastitisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mastitis;
+			};
+			name = Debug;
+		};
+		DD14020A1D4A439E0073BE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MastitisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGem.MastitisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mastitis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD1401D31D4A439E0073BE2C /* Build configuration list for PBXProject "Mastitis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1402001D4A439E0073BE2C /* Debug */,
+				DD1402011D4A439E0073BE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1402021D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "Mastitis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1402031D4A439E0073BE2C /* Debug */,
+				DD1402041D4A439E0073BE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD1402051D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1402061D4A439E0073BE2C /* Debug */,
+				DD1402071D4A439E0073BE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD1402081D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1402091D4A439E0073BE2C /* Debug */,
+				DD14020A1D4A439E0073BE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD1401D01D4A439E0073BE2C /* Project object */;
+}
