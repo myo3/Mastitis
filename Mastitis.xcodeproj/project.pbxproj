@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD1401DC1D4A439E0073BE2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401DB1D4A439E0073BE2C /* AppDelegate.swift */; };
-		DD1401DE1D4A439E0073BE2C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401DD1D4A439E0073BE2C /* FirstViewController.swift */; };
-		DD1401E01D4A439E0073BE2C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401DF1D4A439E0073BE2C /* SecondViewController.swift */; };
-		DD1401E31D4A439E0073BE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1401E11D4A439E0073BE2C /* Main.storyboard */; };
-		DD1401E51D4A439E0073BE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1401E41D4A439E0073BE2C /* Assets.xcassets */; };
-		DD1401E81D4A439E0073BE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1401E61D4A439E0073BE2C /* LaunchScreen.storyboard */; };
 		DD1401F31D4A439E0073BE2C /* MastitisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401F21D4A439E0073BE2C /* MastitisTests.swift */; };
 		DD1401FE1D4A439E0073BE2C /* MastitisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */; };
+		DD2820D41D4BA12F00714966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2820D31D4BA12F00714966 /* Default-568h@2x.png */; };
+		DD2820D61D4BA16300714966 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2820D51D4BA16300714966 /* Info.plist */; };
+		DD2820DA1D4BA17600714966 /* CellCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820D71D4BA17600714966 /* CellCounterViewController.swift */; };
+		DD2820DB1D4BA17600714966 /* CostCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820D81D4BA17600714966 /* CostCalculatorViewController.swift */; };
+		DD2820DC1D4BA17600714966 /* CowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820D91D4BA17600714966 /* CowDataViewController.swift */; };
+		DD2820E01D4BA18700714966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820DD1D4BA18700714966 /* AppDelegate.swift */; };
+		DD2820E11D4BA18700714966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2820DE1D4BA18700714966 /* LaunchScreen.storyboard */; };
+		DD2820E41D4BA19100714966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2820E31D4BA19100714966 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +38,20 @@
 
 /* Begin PBXFileReference section */
 		DD1401D81D4A439E0073BE2C /* Mastitis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastitis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD1401DB1D4A439E0073BE2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD1401DD1D4A439E0073BE2C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DD1401DF1D4A439E0073BE2C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		DD1401E21D4A439E0073BE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD1401E41D4A439E0073BE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD1401E71D4A439E0073BE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD1401E91D4A439E0073BE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD1401EE1D4A439E0073BE2C /* MastitisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastitisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1401F21D4A439E0073BE2C /* MastitisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastitisTests.swift; sourceTree = "<group>"; };
 		DD1401F41D4A439E0073BE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD1401F91D4A439E0073BE2C /* MastitisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastitisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastitisUITests.swift; sourceTree = "<group>"; };
 		DD1401FF1D4A439E0073BE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2820D31D4BA12F00714966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD2820D51D4BA16300714966 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2820D71D4BA17600714966 /* CellCounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellCounterViewController.swift; path = Controllers/CellCounterViewController.swift; sourceTree = "<group>"; };
+		DD2820D81D4BA17600714966 /* CostCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CostCalculatorViewController.swift; path = Controllers/CostCalculatorViewController.swift; sourceTree = "<group>"; };
+		DD2820D91D4BA17600714966 /* CowDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CowDataViewController.swift; path = Controllers/CowDataViewController.swift; sourceTree = "<group>"; };
+		DD2820DD1D4BA18700714966 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Other Sources/AppDelegate.swift"; sourceTree = "<group>"; };
+		DD2820DE1D4BA18700714966 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Other Sources/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		DD2820E31D4BA19100714966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +102,9 @@
 		DD1401DA1D4A439E0073BE2C /* Mastitis */ = {
 			isa = PBXGroup;
 			children = (
-				DD1401DB1D4A439E0073BE2C /* AppDelegate.swift */,
-				DD1401DD1D4A439E0073BE2C /* FirstViewController.swift */,
-				DD1401DF1D4A439E0073BE2C /* SecondViewController.swift */,
-				DD1401E11D4A439E0073BE2C /* Main.storyboard */,
-				DD1401E41D4A439E0073BE2C /* Assets.xcassets */,
-				DD1401E61D4A439E0073BE2C /* LaunchScreen.storyboard */,
-				DD1401E91D4A439E0073BE2C /* Info.plist */,
+				DD2820E71D4BA1D000714966 /* Other Sources */,
+				DD2820E51D4BA1A200714966 /* ViewControllers */,
+				DD2820E61D4BA1C000714966 /* Resources */,
 			);
 			path = Mastitis;
 			sourceTree = "<group>";
@@ -126,6 +125,35 @@
 				DD1401FF1D4A439E0073BE2C /* Info.plist */,
 			);
 			path = MastitisUITests;
+			sourceTree = "<group>";
+		};
+		DD2820E51D4BA1A200714966 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD2820D71D4BA17600714966 /* CellCounterViewController.swift */,
+				DD2820D81D4BA17600714966 /* CostCalculatorViewController.swift */,
+				DD2820D91D4BA17600714966 /* CowDataViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DD2820E61D4BA1C000714966 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD2820E31D4BA19100714966 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD2820E71D4BA1D000714966 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DD2820D31D4BA12F00714966 /* Default-568h@2x.png */,
+				DD2820D51D4BA16300714966 /* Info.plist */,
+				DD2820DD1D4BA18700714966 /* AppDelegate.swift */,
+				DD2820DE1D4BA18700714966 /* LaunchScreen.storyboard */,
+			);
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1401E81D4A439E0073BE2C /* LaunchScreen.storyboard in Resources */,
-				DD1401E51D4A439E0073BE2C /* Assets.xcassets in Resources */,
-				DD1401E31D4A439E0073BE2C /* Main.storyboard in Resources */,
+				DD2820D61D4BA16300714966 /* Info.plist in Resources */,
+				DD2820E11D4BA18700714966 /* LaunchScreen.storyboard in Resources */,
+				DD2820D41D4BA12F00714966 /* Default-568h@2x.png in Resources */,
+				DD2820E41D4BA19100714966 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1401E01D4A439E0073BE2C /* SecondViewController.swift in Sources */,
-				DD1401DC1D4A439E0073BE2C /* AppDelegate.swift in Sources */,
-				DD1401DE1D4A439E0073BE2C /* FirstViewController.swift in Sources */,
+				DD2820E01D4BA18700714966 /* AppDelegate.swift in Sources */,
+				DD2820DA1D4BA17600714966 /* CellCounterViewController.swift in Sources */,
+				DD2820DB1D4BA17600714966 /* CostCalculatorViewController.swift in Sources */,
+				DD2820DC1D4BA17600714966 /* CowDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +325,6 @@
 			targetProxy = DD1401FA1D4A439E0073BE2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DD1401E11D4A439E0073BE2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD1401E21D4A439E0073BE2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD1401E61D4A439E0073BE2C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD1401E71D4A439E0073BE2C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD1402001D4A439E0073BE2C /* Debug */ = {
@@ -405,10 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Mastitis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iGem.Mastitis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Mastitis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iGem.Mastitis;
@@ -488,6 +502,7 @@
 				DD1402041D4A439E0073BE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD1402051D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +511,7 @@
 				DD1402071D4A439E0073BE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD1402081D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +520,7 @@
 				DD14020A1D4A439E0073BE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
