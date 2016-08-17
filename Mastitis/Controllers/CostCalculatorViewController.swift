@@ -13,15 +13,26 @@ class CostCalculatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.blueColor()
-        // Do any additional setup after loading the view.
     }
-
+    
+    override func viewDidAppear(animated: Bool) {
+        //Set up nav buttons
+        self.navigationController?.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Units", style:
+            .Plain, target: self, action: #selector(self.toggleUnits))
+        self.navigationController?.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Reset", style: .Plain, target: self, action: #selector(self.resetPage))
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    func toggleUnits(){
+        
+    }
+    
+    func resetPage(){
+        
+    }
     /*
     // MARK: - Navigation
 
