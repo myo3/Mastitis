@@ -8,6 +8,11 @@
 
 import UIKit
 
+struct colorPalette{
+    static var red = UIColor(red: 0.98, green: 0.28, blue: 0.26, alpha: 1.0)
+    static var green = UIColor(red: 0.30, green: 0.85, blue: 0.39, alpha: 1.0)
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -42,7 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [cellCounterNavController, costCalculatorNavController, cowDataNavController]
         tabBarController.selectedViewController = cowDataNavController //Make sure cowData is selected first
-        tabBarController.tabBar.tintColor = UIColor(red: 0.98, green: 0.28, blue: 0.26, alpha: 1.0) //Custom red color
+        tabBarController.tabBar.tintColor = colorPalette.red //Custom red color
         
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
