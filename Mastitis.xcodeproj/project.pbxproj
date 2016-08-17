@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002FF5DC6A58EF14096D4D84 /* Pods_MastitisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */; };
+		465181EF042D62D99B0ACC67 /* Pods_Mastitis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */; };
+		B23E4CB8B14BDDDF9759A543 /* Pods_MastitisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2687332A088C87DFEAF13E /* Pods_MastitisUITests.framework */; };
 		DD1401F31D4A439E0073BE2C /* MastitisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401F21D4A439E0073BE2C /* MastitisTests.swift */; };
 		DD1401FE1D4A439E0073BE2C /* MastitisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */; };
 		DD2820D41D4BA12F00714966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2820D31D4BA12F00714966 /* Default-568h@2x.png */; };
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MastitisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mastitis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527768E7E9C6406B42906E7B /* Pods-MastitisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisUITests/Pods-MastitisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79B153CD0C9A8B901A187A12 /* Pods-Mastitis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mastitis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mastitis/Pods-Mastitis.debug.xcconfig"; sourceTree = "<group>"; };
+		A8176B170B54DFA457CA08F7 /* Pods-MastitisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisTests/Pods-MastitisTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEFC8B572C33FEF68A6C696B /* Pods-MastitisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisTests/Pods-MastitisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0695C046DD4F8848DDA5C82 /* Pods-Mastitis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mastitis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mastitis/Pods-Mastitis.release.xcconfig"; sourceTree = "<group>"; };
+		D9C8ED94D69AA9727A5BE1ED /* Pods-MastitisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisUITests/Pods-MastitisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD1401D81D4A439E0073BE2C /* Mastitis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastitis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1401EE1D4A439E0073BE2C /* MastitisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastitisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1401F21D4A439E0073BE2C /* MastitisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastitisTests.swift; sourceTree = "<group>"; };
@@ -52,6 +63,7 @@
 		DD2820DD1D4BA18700714966 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Other Sources/AppDelegate.swift"; sourceTree = "<group>"; };
 		DD2820DE1D4BA18700714966 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Other Sources/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		DD2820E31D4BA19100714966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		EF2687332A088C87DFEAF13E /* Pods_MastitisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MastitisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465181EF042D62D99B0ACC67 /* Pods_Mastitis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002FF5DC6A58EF14096D4D84 /* Pods_MastitisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23E4CB8B14BDDDF9759A543 /* Pods_MastitisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C392C949A055F92E411A8A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B153CD0C9A8B901A187A12 /* Pods-Mastitis.debug.xcconfig */,
+				D0695C046DD4F8848DDA5C82 /* Pods-Mastitis.release.xcconfig */,
+				BEFC8B572C33FEF68A6C696B /* Pods-MastitisTests.debug.xcconfig */,
+				A8176B170B54DFA457CA08F7 /* Pods-MastitisTests.release.xcconfig */,
+				D9C8ED94D69AA9727A5BE1ED /* Pods-MastitisUITests.debug.xcconfig */,
+				527768E7E9C6406B42906E7B /* Pods-MastitisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D684833A41E5546C3697F5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */,
+				2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */,
+				EF2687332A088C87DFEAF13E /* Pods_MastitisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD1401CF1D4A439E0073BE2C = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +124,8 @@
 				DD1401F11D4A439E0073BE2C /* MastitisTests */,
 				DD1401FC1D4A439E0073BE2C /* MastitisUITests */,
 				DD1401D91D4A439E0073BE2C /* Products */,
+				C392C949A055F92E411A8A74 /* Pods */,
+				D684833A41E5546C3697F5A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1402021D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "Mastitis" */;
 			buildPhases = (
+				FCB87A081244D3EC627C62D0 /* [CP] Check Pods Manifest.lock */,
 				DD1401D41D4A439E0073BE2C /* Sources */,
 				DD1401D51D4A439E0073BE2C /* Frameworks */,
 				DD1401D61D4A439E0073BE2C /* Resources */,
+				89B3899FCA250C93EF043F5B /* [CP] Embed Pods Frameworks */,
+				03DDB6F25D52E001E359D575 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1402051D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisTests" */;
 			buildPhases = (
+				860C2951E68CD19079CCD659 /* [CP] Check Pods Manifest.lock */,
 				DD1401EA1D4A439E0073BE2C /* Sources */,
 				DD1401EB1D4A439E0073BE2C /* Frameworks */,
 				DD1401EC1D4A439E0073BE2C /* Resources */,
+				8F3249220DBF6F565CC5508F /* [CP] Embed Pods Frameworks */,
+				C61CE1CBE3DF57189AD4F4FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1402081D4A439E0073BE2C /* Build configuration list for PBXNativeTarget "MastitisUITests" */;
 			buildPhases = (
+				8C16E375EF0126CAF4A1A2CC /* [CP] Check Pods Manifest.lock */,
 				DD1401F51D4A439E0073BE2C /* Sources */,
 				DD1401F61D4A439E0073BE2C /* Frameworks */,
 				DD1401F71D4A439E0073BE2C /* Resources */,
+				7255CD3FFAFA248B03C9CF8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +330,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03DDB6F25D52E001E359D575 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mastitis/Pods-Mastitis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7255CD3FFAFA248B03C9CF8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MastitisUITests/Pods-MastitisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860C2951E68CD19079CCD659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89B3899FCA250C93EF043F5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mastitis/Pods-Mastitis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C16E375EF0126CAF4A1A2CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3249220DBF6F565CC5508F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MastitisTests/Pods-MastitisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61CE1CBE3DF57189AD4F4FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MastitisTests/Pods-MastitisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB87A081244D3EC627C62D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD1401D41D4A439E0073BE2C /* Sources */ = {
@@ -414,6 +585,7 @@
 		};
 		DD1402031D4A439E0073BE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B153CD0C9A8B901A187A12 /* Pods-Mastitis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -427,6 +599,7 @@
 		};
 		DD1402041D4A439E0073BE2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0695C046DD4F8848DDA5C82 /* Pods-Mastitis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -439,6 +612,7 @@
 		};
 		DD1402061D4A439E0073BE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFC8B572C33FEF68A6C696B /* Pods-MastitisTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MastitisTests/Info.plist;
@@ -451,6 +625,7 @@
 		};
 		DD1402071D4A439E0073BE2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8176B170B54DFA457CA08F7 /* Pods-MastitisTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MastitisTests/Info.plist;
@@ -463,6 +638,7 @@
 		};
 		DD1402091D4A439E0073BE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C8ED94D69AA9727A5BE1ED /* Pods-MastitisUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MastitisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,6 +650,7 @@
 		};
 		DD14020A1D4A439E0073BE2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527768E7E9C6406B42906E7B /* Pods-MastitisUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MastitisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

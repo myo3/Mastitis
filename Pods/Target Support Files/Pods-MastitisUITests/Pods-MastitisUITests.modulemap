@@ -1,0 +1,6 @@
+framework module Pods_MastitisUITests {
+  umbrella header "Pods-MastitisUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

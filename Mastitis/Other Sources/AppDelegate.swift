@@ -12,8 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
@@ -42,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [cellCounterNavController, costCalculatorNavController, cowDataNavController]
-        tabBarController.selectedViewController = cellCounterNavController //Make sure cellCounter is selected first
+        tabBarController.selectedViewController = cowDataNavController //Make sure cowData is selected first
         tabBarController.tabBar.tintColor = UIColor(red: 0.98, green: 0.28, blue: 0.26, alpha: 1.0) //Custom red color
         
         window?.rootViewController = tabBarController
