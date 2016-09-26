@@ -14,16 +14,16 @@ class CowDataViewController: UIViewController {
     var lineChartView: LineChartView!
     var cowInfoView: UIView!
     
-    var cowID: [String] = ["4520", "4521", "4522", "4523", "4524", "4525", "4526", "4527", "4528", "4529", "4530", "4531"]
+    var cowID = ["4520", "4521", "4522", "4523", "4524", "4525", "4526", "4527", "4528", "4529", "4530", "4531"]
     let numTimesInfected = [20.0, 4.0, 6.0, 3.0, 12.0, 16.0, 4.0, 18.0, 2.0, 4.0, 5.0, 4.0]
     
-    var day = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
-    let milkProduction = [65, 95, 110, 125, 100, 115, 133, 120, 106, 119, 90, 45]
+    var day = ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100", "110", "120"]
+    let milkProduction: [Double] = [25, 65, 95, 110, 125, 100, 115, 133, 120, 106, 119, 90, 45]
     
     var tabBarHeight: CGFloat = UITabBarController().tabBar.frame.size.height
     let bounds = UIScreen.mainScreen().bounds
     
-    var customRed : UIColor = UIColor(red: 0.98, green: 0.28, blue: 0.26, alpha: 1.0)
+    let addCowVC:AddCowViewController = AddCowViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +44,12 @@ class CowDataViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func addCow(sender: UIButton!) {
+        let navController = UINavigationController(rootViewController: addCowVC)
+        navController.navigationBar.tintColor = colorPalette.red
+        self.presentViewController(navController, animated: true, completion: nil)
+    }
+    
     func makeSegmentedControl(){
         let items = ["Infection by Cow", "Milk Production", "Cow Info"]
         let customSC = UISegmentedControl(items: items)
@@ -54,19 +60,21 @@ class CowDataViewController: UIViewController {
         //Style
         customSC.layer.cornerRadius = 5.0
         customSC.backgroundColor = UIColor.whiteColor()
-        customSC.tintColor = customRed
+        customSC.tintColor = colorPalette.red
         
         customSC.addTarget(self, action: #selector(CowDataViewController.changeView(_:)), forControlEvents: .ValueChanged)
         self.view.addSubview(customSC)
     }
+    
+    
     
     func changeView(sender: UISegmentedControl){
         clearView()
         switch sender.selectedSegmentIndex {
         case 1:
             self.view.addSubview(lineChartView)
-        case 2:
-            self.view.addSubview(cowInfoView)
+        //case 2:
+            //self.view.addSubview(cowInfoView)
         default:
             self.view.addSubview(barChartView)
         }
@@ -88,7 +96,7 @@ class CowDataViewController: UIViewController {
     func makeLineChart() {
         self.lineChartView = LineChartView(frame: CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height-3.1*tabBarHeight))
         lineChartView.center = CGPointMake(bounds.width/2, bounds.height*0.533)
-        setChart(cowID, values: numTimesInfected, caseNum: 1)
+        setChart(day, values: milkProduction, caseNum: 1)
     }
     
     func setChart(dataPoints: [String], values: [Double], caseNum: Int) {
@@ -101,7 +109,7 @@ class CowDataViewController: UIViewController {
             let dataEntry = BarChartDataEntry(value: values[i], xIndex: i)
             dataEntries.append(dataEntry)
             if values[i] > 5{
-                valueColors.append(customRed)
+                valueColors.append(colorPalette.red)
             }
             else{
                 valueColors.append(UIColor.blackColor())
@@ -111,8 +119,8 @@ class CowDataViewController: UIViewController {
         switch caseNum{
         case 0:
             //Add chart data to bar chart
-            let chartDataSet = BarChartDataSet(yVals: dataEntries, label: "Units Sold")
-            chartDataSet.colors = [customRed]
+            let chartDataSet = BarChartDataSet(yVals: dataEntries, label: "Cow ID")
+            chartDataSet.colors = [colorPalette.red]
             chartDataSet.valueColors = valueColors
             
             let chartData = BarChartData(xVals: cowID, dataSet: chartDataSet)
@@ -139,7 +147,7 @@ class CowDataViewController: UIViewController {
             barChartView.leftAxis.valueFormatter!.minimumFractionDigits = 0 //no decimals
         case 1:
             //Add chart data to line chart
-            let lineChartDataSet = LineChartDataSet(yVals: dataEntries, label: "Units Sold")
+            let lineChartDataSet = LineChartDataSet(yVals: dataEntries, label: "Days Since Calved")
             let lineChartData = LineChartData(xVals: dataPoints, dataSet: lineChartDataSet)
             lineChartView.data = lineChartData
             
@@ -147,20 +155,28 @@ class CowDataViewController: UIViewController {
             lineChartDataSet.drawCubicEnabled = true
             //fill graph
             lineChartDataSet.drawFilledEnabled = true
+            lineChartDataSet.fillColor = colorPalette.red
             //color graph
-            lineChartDataSet.colors = [customRed]
+            lineChartDataSet.colors = [colorPalette.red]
             
-            lineChartView.data = lineChartData
+            //Customize graph
             lineChartView.xAxis.labelPosition = .Bottom
-            lineChartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0, easingOption: .EaseInCubic)
-            //remove coordinate circles
-            lineChartDataSet.drawCirclesEnabled = false
-            //remove xAxis line
-            lineChartView.xAxis.drawGridLinesEnabled = false
-            lineChartView.xAxis.drawAxisLineEnabled = false
-            
-            //remove description
+            lineChartView.xAxis.setLabelsToSkip(0)
             lineChartView.descriptionText = ""
+            lineChartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0, easingOption: .EaseInCubic)
+            
+            //Disable features
+            lineChartData.setDrawValues(false) //remove label on each data point
+            lineChartDataSet.drawCirclesEnabled = false //remove coordinate circles
+            lineChartView.highlighter = nil
+            lineChartView.legend.enabled = false
+            lineChartView.rightAxis.enabled = false
+            lineChartView.xAxis.drawGridLinesEnabled = false
+            lineChartView.scaleYEnabled = false
+            lineChartView.scaleXEnabled = false
+            lineChartView.pinchZoomEnabled = false
+            lineChartView.doubleTapToZoomEnabled = false
+            
         default:
             break
         }

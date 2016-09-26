@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
+
         //Set up Tab Bar & Navigation Controllers
         let cellCounterTab = CellCounterViewController()
         let costCalculatorTab = CostCalculatorViewController()
@@ -30,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let cellCounterNavController = UINavigationController(rootViewController: cellCounterTab)
         let costCalculatorNavController = UINavigationController(rootViewController: costCalculatorTab)
         let cowDataNavController = UINavigationController(rootViewController: cowDataTab)
+        
         //        navController.navigationBarHidden = true
         
         let cellCounterIcon = UITabBarItem(title: "Cell Counter", image: UIImage(named: "Cell Counter"), selectedImage: UIImage(named: "Cell Counter (Selected)"))
@@ -48,6 +50,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.viewControllers = [cellCounterNavController, costCalculatorNavController, cowDataNavController]
         tabBarController.selectedViewController = cowDataNavController //Make sure cowData is selected first
         tabBarController.tabBar.tintColor = colorPalette.red //Custom red color
+        
+        //Make add button for nav bar
+        let addBtn = UIButton(frame: CGRectMake(0,0, 30, 30))
+        addBtn.setImage(UIImage(named: "Add"), forState: .Normal)
+        addBtn.addTarget(cowDataTab, action: #selector(cowDataTab.addCow(_:)), forControlEvents: .TouchUpInside)
+
+        let rightBarButton = UIBarButtonItem()
+        rightBarButton.customView = addBtn
+        cowDataNavController.navigationBar.topItem?.rightBarButtonItem = rightBarButton
         
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()

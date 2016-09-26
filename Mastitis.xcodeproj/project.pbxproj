@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		002FF5DC6A58EF14096D4D84 /* Pods_MastitisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */; };
+		37AB47541D73A3FD008EC296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AB47531D73A3FD008EC296 /* Main.storyboard */; };
+		37E0AA631D6A536E008E7103 /* AddCowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0AA621D6A536E008E7103 /* AddCowViewController.swift */; };
 		465181EF042D62D99B0ACC67 /* Pods_Mastitis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */; };
 		B23E4CB8B14BDDDF9759A543 /* Pods_MastitisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2687332A088C87DFEAF13E /* Pods_MastitisUITests.framework */; };
 		DD1401F31D4A439E0073BE2C /* MastitisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401F21D4A439E0073BE2C /* MastitisTests.swift */; };
 		DD1401FE1D4A439E0073BE2C /* MastitisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1401FD1D4A439E0073BE2C /* MastitisUITests.swift */; };
 		DD2820D41D4BA12F00714966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2820D31D4BA12F00714966 /* Default-568h@2x.png */; };
-		DD2820D61D4BA16300714966 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2820D51D4BA16300714966 /* Info.plist */; };
 		DD2820DA1D4BA17600714966 /* CellCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820D71D4BA17600714966 /* CellCounterViewController.swift */; };
 		DD2820DB1D4BA17600714966 /* CostCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820D81D4BA17600714966 /* CostCalculatorViewController.swift */; };
 		DD2820DC1D4BA17600714966 /* CowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2820D91D4BA17600714966 /* CowDataViewController.swift */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MastitisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mastitis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AB47531D73A3FD008EC296 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "Other Sources/Main.storyboard"; sourceTree = "<group>"; };
+		37E0AA621D6A536E008E7103 /* AddCowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCowViewController.swift; path = Controllers/AddCowViewController.swift; sourceTree = "<group>"; };
 		527768E7E9C6406B42906E7B /* Pods-MastitisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisUITests/Pods-MastitisUITests.release.xcconfig"; sourceTree = "<group>"; };
 		79B153CD0C9A8B901A187A12 /* Pods-Mastitis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mastitis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mastitis/Pods-Mastitis.debug.xcconfig"; sourceTree = "<group>"; };
 		A8176B170B54DFA457CA08F7 /* Pods-MastitisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisTests/Pods-MastitisTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				DD2820D71D4BA17600714966 /* CellCounterViewController.swift */,
+				37E0AA621D6A536E008E7103 /* AddCowViewController.swift */,
 				DD2820D81D4BA17600714966 /* CostCalculatorViewController.swift */,
 				DD2820D91D4BA17600714966 /* CowDataViewController.swift */,
 			);
@@ -191,6 +195,7 @@
 				DD2820D31D4BA12F00714966 /* Default-568h@2x.png */,
 				DD2820D51D4BA16300714966 /* Info.plist */,
 				DD2820DD1D4BA18700714966 /* AppDelegate.swift */,
+				37AB47531D73A3FD008EC296 /* Main.storyboard */,
 				DD2820DE1D4BA18700714966 /* LaunchScreen.storyboard */,
 			);
 			name = "Other Sources";
@@ -308,7 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2820D61D4BA16300714966 /* Info.plist in Resources */,
+				37AB47541D73A3FD008EC296 /* Main.storyboard in Resources */,
 				DD2820E11D4BA18700714966 /* LaunchScreen.storyboard in Resources */,
 				DD2820D41D4BA12F00714966 /* Default-568h@2x.png in Resources */,
 				DD2820E41D4BA19100714966 /* Assets.xcassets in Resources */,
@@ -461,6 +466,7 @@
 			files = (
 				DD2820E01D4BA18700714966 /* AppDelegate.swift in Sources */,
 				DD2820DA1D4BA17600714966 /* CellCounterViewController.swift in Sources */,
+				37E0AA631D6A536E008E7103 /* AddCowViewController.swift in Sources */,
 				DD2820DB1D4BA17600714966 /* CostCalculatorViewController.swift in Sources */,
 				DD2820DC1D4BA17600714966 /* CowDataViewController.swift in Sources */,
 			);
