@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		002FF5DC6A58EF14096D4D84 /* Pods_MastitisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */; };
+		379CEB821D98BC950037FD72 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CEB811D98BC950037FD72 /* TableViewCell.swift */; };
 		37AB47541D73A3FD008EC296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AB47531D73A3FD008EC296 /* Main.storyboard */; };
 		37E0AA631D6A536E008E7103 /* AddCowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0AA621D6A536E008E7103 /* AddCowViewController.swift */; };
 		465181EF042D62D99B0ACC67 /* Pods_Mastitis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		2549C5FC88B148816E178E8D /* Pods_MastitisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MastitisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3447B6E64EFF19D9D9C83F7E /* Pods_Mastitis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mastitis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CEB811D98BC950037FD72 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = Controllers/TableViewCell.swift; sourceTree = "<group>"; };
 		37AB47531D73A3FD008EC296 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "Other Sources/Main.storyboard"; sourceTree = "<group>"; };
 		37E0AA621D6A536E008E7103 /* AddCowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCowViewController.swift; path = Controllers/AddCowViewController.swift; sourceTree = "<group>"; };
 		527768E7E9C6406B42906E7B /* Pods-MastitisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MastitisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MastitisUITests/Pods-MastitisUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				37E0AA621D6A536E008E7103 /* AddCowViewController.swift */,
 				DD2820D81D4BA17600714966 /* CostCalculatorViewController.swift */,
 				DD2820D91D4BA17600714966 /* CowDataViewController.swift */,
+				379CEB811D98BC950037FD72 /* TableViewCell.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				DD2820E01D4BA18700714966 /* AppDelegate.swift in Sources */,
 				DD2820DA1D4BA17600714966 /* CellCounterViewController.swift in Sources */,
 				37E0AA631D6A536E008E7103 /* AddCowViewController.swift in Sources */,
+				379CEB821D98BC950037FD72 /* TableViewCell.swift in Sources */,
 				DD2820DB1D4BA17600714966 /* CostCalculatorViewController.swift in Sources */,
 				DD2820DC1D4BA17600714966 /* CowDataViewController.swift in Sources */,
 			);

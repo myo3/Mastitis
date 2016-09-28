@@ -8,19 +8,17 @@
 
 import UIKit
 
-class AddCowViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
-    var tableView: UITableView  =   UITableView()
-    let animals : [String] = ["Dogs","Cats","Mice"]
+class AddCowViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextViewDelegate {
+    let bounds = UIScreen.mainScreen().bounds
+    var cowInfotableView: UITableView  =   UITableView()
+    let cellLabels : [String] = ["ID","Number of Times Infected"]
+    let cellHeight:CGFloat = 43.5
     
     override func viewDidLoad() {
         super.viewDidLoad()
         makeNavigationBar()
+        makeCowInfoTableView()
         
-        tableView = UITableView(frame: UIScreen.mainScreen().bounds, style: UITableViewStyle.Plain)
-        tableView.delegate      =   self
-        tableView.dataSource    =   self
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        self.view.addSubview(self.tableView)
         
     }
     
@@ -40,30 +38,49 @@ class AddCowViewController: UIViewController, UITableViewDelegate,UITableViewDat
         navigationItem.title = "Add Cow"
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-    {
-        return animals.count
-        
-    }
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
-    {
-        
-        let cell:UITableViewCell=UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "cell")
-        cell.textLabel!.text = animals [indexPath.row]
-        return cell;
-    }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
-    {
-        print(animals[indexPath.row])
-        
-    }
     func donePressed(sender: UIButton!) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     func cancelPressed(sender: UIButton!) {
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func makeCowInfoTableView(){
+        cowInfotableView = UITableView(frame: CGRectMake(0, 0, bounds.width, bounds.height*0.13), style: UITableViewStyle.Plain)
+        self.automaticallyAdjustsScrollViewInsets = false
+        cowInfotableView.scrollEnabled = false
+        cowInfotableView.center = CGPointMake(bounds.width/2, bounds.height*0.22)
+        cowInfotableView.delegate      =   self
+        cowInfotableView.dataSource    =   self
+        cowInfotableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.view.addSubview(self.cowInfotableView)
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return cellLabels.count
+        
+    }
+
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return cellHeight
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
+        var cell = TableViewCell(frame: CGRectMake(0, 0, self.view.frame.width, CGFloat(cellHeight)), title: cellLabels[indexPath.row])
+        cell.cellLabel.text = cellLabels [indexPath.row]
+        if (indexPath.row==1){
+            cell.cellTextView.frame.size.width = bounds.width*0.38
+            cell.cellTextView.center.x = bounds.width*0.78
+        }
+        return cell;
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        print(cellLabels[indexPath.row])
+        
     }
 }
